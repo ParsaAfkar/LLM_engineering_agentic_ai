@@ -6,12 +6,12 @@ import os
 
 load_dotenv()
 
-AVAL_API_KEY = os.getenv("aa-YvovDhl2JmGt8Kn4VNSHD47t9V9N18Og4Mkf9rusK0pKHsvz")
-WEATHER_API_KEY = os.getenv("d6c80188c3e1e1b932c73cf40576ea34")
+AVAL_API_KEY = os.getenv("aval api key")
+WEATHER_API_KEY = os.getenv("weather api key")
 
 
 client = OpenAI(
-    api_key="aa-YvovDhl2JmGt8Kn4VNSHD47t9V9N18Og4Mkf9rusK0pKHsvz",
+    api_key="aval api key",
     base_url="https://api.avalai.ir/v1"
 )
 
@@ -19,7 +19,7 @@ def get_weather(city):
     url = "https://api.openweathermap.org/data/2.5/weather"
     params = {
         "q": city,
-        "appid": "d6c80188c3e1e1b932c73cf40576ea34",
+        "appid": "wether api key",
         "units": "metric",
         "lang": "fa"
     }
@@ -59,3 +59,4 @@ if st.button("ساخت برنامه سفر"):
 
     result = travel_agent(prompt)
     st.text_area("برنامه پیشنهادی سفر", result, height=300)
+
