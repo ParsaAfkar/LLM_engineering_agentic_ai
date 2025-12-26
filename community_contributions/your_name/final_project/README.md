@@ -10,7 +10,7 @@ This agent takes essential travel information from the user and generates a smar
 - **Destination city**
 - **Travel budget**
 - **Number of travel days**
-- **Weather information (real-time or simulated)**
+- **Weather information (real-time)
 
 ### The agent outputs:
 - A summarized **travel plan**
@@ -40,4 +40,5 @@ To demonstrate how an **AI agent** can:
 ## 📂 Project Structure
 
 parsa afkar
+
 
