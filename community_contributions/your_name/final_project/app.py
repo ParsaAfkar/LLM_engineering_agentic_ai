@@ -59,3 +59,5 @@ if st.button("ساخت برنامه سفر"):
 
     result = travel_agent(prompt)
     st.text_area("برنامه پیشنهادی سفر", result, height=300)
+
+#write this text in terminal to run  :  streamlit run final_project/app.py
